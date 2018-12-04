@@ -10,7 +10,7 @@ export { store };
 
 const Root = (props) => (
   <Provider store={store}>
-    <App config={props.config} />
+    <App config={props.config} poster={props.poster} />
   </Provider>
 );
 
